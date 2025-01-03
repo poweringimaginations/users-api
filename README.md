@@ -10,7 +10,7 @@ first_name (VARCHAR)
 last_name (VARCHAR)
 email (VARCHAR, UNIQUE)
 
-Turned this database into Render's PostgreSQL service. Using the external connection string I put the same data into the deployed database.
+Transitioned this database into Render's PostgreSQL service. Using the external connection string I put the same data into the deployed database.
 
 stored all database credentials in a .env file. /users endpoint now allows me to fetch data from the user database. The live API communicates with Render's PostgreSQL to database using the environment variables.
 
