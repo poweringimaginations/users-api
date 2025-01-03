@@ -14,6 +14,10 @@ Turned this database into Render's PostgreSQL service. Using the external connec
 
 stored all database credentials in a .env file. /users endpoint now allows me to fetch data from the user database. The live API communicates with Render's PostgreSQL to database using the environment variables.
 
+API: https://users-api-1rkb.onrender.com/users
+
+used Postman to send GET requests to the /users endpoint to check that everything was running
+
 TLDR;
 local development -> deployed environment (Render)
 
