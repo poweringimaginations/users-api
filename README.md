@@ -18,9 +18,15 @@ API: https://users-api-1rkb.onrender.com/users
 
 used Postman to send GET requests to the /users endpoint to check that everything was running
 
+# takeaways
+- the backend manages data and communicates with the frontend to make everyhting work together
+- information is stored in a database. here I created a users table in PostgreSQL which keeps track of user information such as names and email
+- all this data can be accessed through an API using the /users endpoint
+- for anyone to use the API, it needs to be live on the internet. Render PostgreSQL database and web services allowed me to deploy this
+- keep sensitive information in .env files
+
 TLDR;
 local development -> deployed environment (Render)
-
 
 
 
